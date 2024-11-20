@@ -28,7 +28,7 @@ return (<>
 }
 
 function MyModel() {
-  const { scene } = useGLTF("https://www.immersive-react.com/shoe.glb")
+  const { scene } = useGLTF("/shoe.glb")
   return <primitive object={scene} />
 }
 
